@@ -1,0 +1,18 @@
+body{
+background-image: url(https://images.squarespace-cdn.com/content/v1/5133bc80e4b0c6fb04dcd6c4/1499895985641-89H53D422T1GIZ19PUGG/image-asset.jpeg);
+background-repeat: no-repeat;
+
+}
+
+h1{
+    color: rgb(203, 226, 208);
+text-align: center;
+font-size: 55px;
+font-weight: 200;
+font-family: "Orbitron", sans-serif;
+}
+
+h2{ color: rgb(203, 226, 208);
+
+text-align: center;
+}
