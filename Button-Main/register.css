@@ -1,97 +1,95 @@
-body{
-    margin: 0;
-    padding: 0;
-    height: 100vh;
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
 }
 
-.container{
-    display: flex;
-    height: 100vh;
+.container {
+  display: flex;
+  height: 100vh;
 }
-.image-section{
-    flex: 2;
-    background-image:url(https://catwithmonocle.com/wp-content/uploads/2020/05/featured-ff7r-shinra-hq-1024x576.jpg);
-    background-size: cover;
+.image-section {
+  flex: 2;
+  background-image: url(https://catwithmonocle.com/wp-content/uploads/2020/05/featured-ff7r-shinra-hq-1024x576.jpg);
+  background-size: cover;
 }
-.form-section{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgba(104, 69, 69, 0.7);
-    padding-top: 170px;
-    color: rgb(112, 75, 78);
-}
-
-h1{
-    color: crimson;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-bottom: 20px;
-    font-size: 40px;
-    text-shadow: 2px 2px 4px #000000;
-
+.form-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(104, 69, 69, 0.7);
+  padding-top: 170px;
+  color: rgb(112, 75, 78);
 }
 
-p{
-    color: thistle;
+h1 {
+  color: crimson;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 20px;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px #000000;
 }
 
-a{
-    color :beige;
-    transition: color 0.3s, text-decoration 0.3s;
-    
+p {
+  color: thistle;
+}
+
+a {
+  color: beige;
+  transition: color 0.3s, text-decoration 0.3s;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(112, 75, 78);
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(112, 75, 78);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 input text,
 input password,
-input email{
-    margin: 10px 0;
-    padding: 10px;
-    width: 250px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
+input email {
+  margin: 10px 0;
+  padding: 10px;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
 }
-select{
-    margin: 30px 0;
-    padding: 10px;
-    width: 240px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    background-color: rgb(95, 9, 9);
-    box-shadow: #000000;
-    color: white;
-    cursor: pointer;
+select {
+  margin: 30px 0;
+  padding: 10px;
+  width: 240px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: rgb(95, 9, 9);
+  box-shadow: #000000;
+  color: white;
+  cursor: pointer;
 }
 
-.avatar{
-    height: 210px;
-    width: 210px;
-    background-image: url(https://ih1.redbubble.net/image.1295381355.1487/st,small,507x507-pad,600x600,f8f8f8.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border: 0px solid black;
-    border-radius: 50%;
-    opacity: 0.85;
-    margin-bottom: 20px;
+.avatar {
+  height: 210px;
+  width: 210px;
+  background-image: url(https://ih1.redbubble.net/image.1295381355.1487/st,small,507x507-pad,600x600,f8f8f8.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 0px solid black;
+  border-radius: 50%;
+  opacity: 0.85;
+  margin-bottom: 20px;
 
-    position: absolute;
-    left: 1480px;
+  position: absolute;
+  left: 1480px;
 }
 
 input:hover,
-select:hover{
-    box-shadow: 0 0 10px #db3434;
+select:hover {
+  box-shadow: 0 0 10px #db3434;
 }
