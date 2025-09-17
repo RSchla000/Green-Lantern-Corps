@@ -1,0 +1,46 @@
+body{
+    background-image: url(../images/ghiblibackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    text-shadow: black 2px 2px 5px;
+    margin-top: 50px;
+}
+p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-shadow: black 1px 1px 3px;
+}
+ul{
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    margin-left: 500px;
+    margin-right: 500px;
+    text-shadow: black 1px 1px 3px;
+}
+
+.step{
+    font-size: 16px;
+    color: white;
+    text-align: left;
+    margin-left: 500px;
+    margin-right: 500px;
+    text-shadow: black 1px 1px 3px;
+    position:absolute;
+    left: 350px;
+    top: 190px;
+    width: 800px;
+}
+.step2{
+    font-size: 18px;
+    background-color: rgba(f, f, f, 0.5);
+}
